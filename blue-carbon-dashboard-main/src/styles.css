@@ -1,0 +1,36 @@
+/* Keep the sidebar fixed width and full height */
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.logo-dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1c7ed6, #22b8cf);
+}
+
+/* Make the page background feel app-like */
+body {
+  background: linear-gradient(180deg, #f3f7fb, #eef2f7);
+}
+
+/* Dashed border helper */
+.border-dashed {
+  border-style: dashed !important;
+}
+
+/* Active link highlight */
+.nav-link.active {
+  background: #e7f1ff;
+  border-radius: .5rem;
+  font-weight: 600;
+}
+
+/* Card headings */
+.card-title {
+  margin-bottom: 1rem;
+}
